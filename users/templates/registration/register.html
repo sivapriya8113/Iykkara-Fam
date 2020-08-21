@@ -1,0 +1,42 @@
+{% extends "registration/dell.html" %}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/register.css">
+    <title></title>
+
+  </head>
+  {% block content %}
+
+  <body>
+    <div>
+
+      <form class="border mt-5 border-dark text-center p-3" method="post" action="{% url 'users:register' %}">
+        {% csrf_token %}
+          <p class="h4 mb-4 text-secondary text-center">Register</p>
+          <div class="form-wrapper row">
+            {% for field in form %}
+              <div class="form-field col-6 d-flex style=">
+
+                  {{ field.label_tag }}
+                  {{ field }}
+
+                  {% for error in field.errors %}
+                    <p style="color: red">{{ error }}</p>
+                  {% endfor %}
+              </div>
+            {% endfor %}
+          </div>
+
+        <button  class="btn btn-secondary my-4 btn-block" name="submit">Register</button>
+        <input type="hidden" name="next" value="{% url 'learning_logs:index' %}" />
+        <p>By clicking
+            <em>Register</em> you agree to our
+            <a href="" target="_blank">terms of service</a>
+        </p>
+      </form>
+    {% endblock content %}
+  </body>
+</html>

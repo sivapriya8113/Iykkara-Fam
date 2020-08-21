@@ -1,0 +1,200 @@
+#promo {
+  text-align: center;
+  padding: 50px;
+  background: url(../img/background1.jpg)no-repeat;
+  background-size: cover;
+  height: 383px;
+  margin-top: 40px;
+}
+
+.text-uppercase {
+  font-family: 'Cookie';
+  /*font-size: 160px;*/
+  /*font-weight: inherit;*/
+}
+
+.display-4 {
+  font-family: 'Cookie';
+  font-size: 80px;
+}
+
+body {
+  padding-top: 5px;
+}
+
+#promo {
+  padding: 20px;
+}
+
+#promo .jumbotron {
+  border-radius: 20px;
+  padding: 40px;
+  background-color: rgba(255,255,255,0.00);
+  max-width: 800px;
+  margin: auto;
+}
+
+@media (min-width: 576px) {
+  #promo .jumbotron {
+    padding-top: 70px;
+  }
+}
+
+body {
+  font-family: Arial, Helvertica, sans-serif;
+}
+
+.site-section {
+  text-align: center;
+  padding: 60px;
+  padding-bottom: 10px;
+}
+
+.site-section h1 {
+  font-weight: normal;
+  margin-bottom: 30px;
+  margin-top: 70px;
+}
+
+#welcome p {
+  max-width: 800px;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.navbar {
+  padding: 30px;
+  border-style: inset;
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+  color: #000;
+  font-size: 15px;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.navbar-light .navbar-brand {
+  color: #53A7AF;
+}
+
+.text-uppercase {
+  font-size: 20px;
+}
+
+#logo {
+  background-image: url(../img/iykkaralogo.png);
+  height: 50px;
+  width: 100px;
+}
+
+.dark-section {
+  background-color: rgb(255,252,252);
+}
+
+#logo {
+  max-height: 42px;
+  margin-right: 10px;
+  margin-top: -3px;
+  display: inline-block;
+}
+
+.fa.fa-home {
+  color: rgb(227,86,111);
+}
+
+.fa.fa-tree {
+  color: rgb(105,179,105);
+}
+
+.fa.fa-photo {
+  color: rgb(139,134,90);
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  background-color: rgb(243,228,218);
+  border-color: transparent;
+}
+
+#fam {
+  color: rgb(0,0,0);
+}
+
+#fotter {
+  padding: 20px 0;
+  text-align: inherit;
+}
+
+#log {
+  max-height: 42px;
+}
+
+.footer-about h3 a {
+}
+
+a:hover {
+  color: #cde0b1;
+  text-decoration: underline;
+}
+
+#his {
+  color: rgb(0,0,0);
+}
+
+#gal {
+  color: rgb(0,0,0);
+}
+
+a.text-dark:hover, a.text-dark:focus {
+  color: #171715 !important;
+}
+
+#history {
+  font-size: 15px;
+}
+
+#famly {
+  font-size: 15px;
+  font-weight: 200;
+}
+
+#gallery {
+  font-size: 15px;
+}
+
+#news {
+  font-size: 15px;
+}
+
+#login {
+  font-size: 15px;
+}
+
+#cont {
+  padding-top: 20px;
+  background-color: rgba(186,179,179,0.75);
+  padding-bottom: 20px;
+}
+
+.container, .container-sm, .container-md, .container-lg, .container-xl {
+}
+
+#container-family {
+  width: 100%;
+  padding-top: 20px;
+  background-color: rgba(211,202,202,0.75);
+  padding-bottom: 20px;
+}
+
+#foto_in_familytree {
+  width: 100%;
+  padding-left: 50px;
+  padding-left: 50px;
+}
+
+#galleryimage {
+  padding-top: 10px;
+}
